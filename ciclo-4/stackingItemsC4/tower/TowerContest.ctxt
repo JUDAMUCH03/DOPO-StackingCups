@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TowerContest
+comment0.text=\n\ TowerContest\n\ Proporciona\ algoritmos\ para\ encontrar\ el\ orden\ de\ tazas\ que\ alcanza\ una\ altura\ especifica\n\ y\ permite\ la\ visualizacion\ a\ traves\ del\ simulador\ Tower.\n\n\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\n
+comment1.params=n\ h
+comment1.target=java.lang.String\ solve(int,\ int)
+comment1.text=\n\ Resuelve\ el\ problema\ logistico\ de\ encontrar\ el\ orden\ de\ las\ tazas.\n\ La\ entrada\ y\ la\ salida\ corresponden\ a\ lo\ definido\ en\ el\ problema\ de\ la\ maraton.\n\ @param\ n\ cantidad\ de\ tazas\ a\ utilizar\n\ @param\ h\ altura\ total\ objetivo\ de\ la\ torre\n\ @return\ String\ con\ las\ alturas\ de\ las\ tazas\ separadas\ por\ espacios,\ o\ "impossible"\n
+comment2.params=n\ h
+comment2.target=void\ simulate(int,\ int)
+comment2.text=\n\ Ejecuta\ el\ simulador\ visual\ de\ la\ torre\ basado\ en\ un\ objetivo\ de\ altura.\n\ La\ entrada\ corresponde\ a\ lo\ definido\ en\ el\ problema\ de\ la\ maraton.\n\ Si\ existe\ solucion\ y\ es\ posible\ graficarla,\ la\ muestra\ animada;\n\ en\ caso\ contrario,\ presenta\ un\ mensaje\ indicandolo.\n\ @param\ n\ cantidad\ de\ tazas\ a\ utilizar\n\ @param\ h\ altura\ total\ objetivo\ de\ la\ torre\n
+comment3.params=n\ h
+comment3.target=boolean\ isValidBounds(int,\ int)
+comment3.text=\n\ Valida\ si\ la\ altura\ objetivo\ se\ encuentra\ dentro\ de\ los\ limites\ teoricos\ posibles\n\ para\ una\ cantidad\ dada\ de\ tazas.\n\ @param\ n\ cantidad\ de\ tazas\ disponibles\n\ @param\ h\ altura\ objetivo\ a\ evaluar\n\ @return\ true\ si\ la\ altura\ esta\ dentro\ de\ los\ limites,\ false\ en\ caso\ contrario\n
+comment4.params=currentN\ L\ targetSum
+comment4.target=java.util.ArrayList\ findExactSequence(int,\ int,\ int)
+comment4.text=\n\ Intenta\ encontrar\ una\ combinacion\ exacta\ de\ tazas\ que\ sume\ el\ objetivo\ requerido.\n\ @param\ currentN\ cantidad\ de\ tazas\ actualmente\ en\ evaluacion\n\ @param\ L\ valor\ de\ la\ taza\ mas\ grande\ en\ la\ iteracion\ actual\n\ @param\ targetSum\ altura\ restante\ a\ alcanzar\n\ @return\ lista\ con\ la\ secuencia\ ordenada\ si\ se\ encuentra\ una\ combinacion\ exacta,\ o\ null\n
+comment5.params=currentN\ L\ used
+comment5.target=java.util.ArrayList\ buildTargetSequence(int,\ int,\ boolean[])
+comment5.text=\n\ Construye\ la\ secuencia\ final\ de\ tazas\ a\ partir\ del\ arreglo\ de\ tazas\ utilizadas.\n\ @param\ currentN\ cantidad\ de\ tazas\ actuales\n\ @param\ L\ valor\ central\ de\ la\ secuencia\n\ @param\ used\ arreglo\ booleano\ indicando\ cuales\ tazas\ forman\ parte\ del\ prefijo\n\ @return\ lista\ con\ la\ secuencia\ estructurada\ en\ prefijo,\ centro\ y\ sufijo\n
+comment6.params=result
+comment6.target=java.lang.String\ formatSequence(java.util.ArrayList)
+comment6.text=\n\ Convierte\ la\ lista\ de\ resultados\ en\ una\ cadena\ de\ texto\ separada\ por\ espacios.\n\ @param\ result\ lista\ de\ enteros\ con\ las\ alturas\ de\ las\ tazas\n\ @return\ cadena\ formateada\ sin\ espacios\ al\ inicio\ o\ final\n
+numComments=7

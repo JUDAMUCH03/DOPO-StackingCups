@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NormalLid
+comment0.text=\n\ NormalLid\ -\ Representa\ una\ tapa\ con\ comportamiento\ estandar\ en\ el\ simulador.\n\ Se\ ubica\ siempre\ al\ final\ de\ la\ pila\ actual\ de\ la\ torre.\n\ *\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\n
+comment1.params=number\ color\ widthPx
+comment1.target=NormalLid(int,\ java.lang.String,\ int)
+comment1.text=\n\ Crea\ una\ tapa\ de\ tipo\ normal.\n\ @param\ number\ numero\ de\ la\ tapa\ (debe\ coincidir\ con\ el\ de\ su\ taza)\n\ @param\ color\ color\ asignado\ a\ la\ tapa\n\ @param\ widthPx\ ancho\ de\ la\ tapa\ en\ pixeles\n
+comment2.params=t
+comment2.target=boolean\ enterTower(Tower)
+comment2.text=\n\ Inserta\ la\ tapa\ en\ la\ torre\ siguiendo\ el\ comportamiento\ de\ apilamiento\ estandar.\n\ @param\ t\ Referencia\ a\ la\ torre\ donde\ se\ adicionara\ el\ elemento\n\ @return\ true\ tras\ completar\ la\ insercion\ exitosamente\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FearfulLid
+comment0.text=\n\ FearfulLid\ -\ Tapa\ que\ requiere\ la\ presencia\ de\ su\ taza\ para\ entrar\ y\ no\ sale\ si\ la\ esta\ cubriendo.\n
+comment1.params=number\ color\ widthPx
+comment1.target=FearfulLid(int,\ java.lang.String,\ int)
+comment1.text=\n\ Crea\ una\ tapa\ Fearful\ de\ color\ morado.\n\ @param\ number\ numero\ de\ la\ tapa\n\ @param\ color\ color\ heredado\n\ @param\ widthPx\ ancho\ en\ pixeles\n
+comment2.params=t
+comment2.target=boolean\ enterTower(Tower)
+comment2.text=\n\ Valida\ la\ existencia\ de\ la\ taza\ compa\u00F1era\ antes\ de\ entrar.\n\ @param\ t\ Referencia\ a\ la\ torre\n\ @return\ true\ si\ la\ taza\ existe,\ false\ de\ lo\ contrario\n
+comment3.params=t
+comment3.target=boolean\ canBeRemoved(Tower)
+comment3.text=\n\ Impide\ la\ salida\ de\ la\ tapa\ si\ su\ taza\ sigue\ en\ la\ torre.\n\ @param\ t\ Referencia\ a\ la\ torre\n\ @return\ true\ si\ la\ taza\ no\ esta,\ false\ si\ la\ esta\ cubriendo\n
+numComments=4

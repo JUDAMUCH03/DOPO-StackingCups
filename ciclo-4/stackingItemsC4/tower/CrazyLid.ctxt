@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CrazyLid
+comment0.text=\n\ CrazyLid\ -\ Tapa\ que\ se\ ubica\ en\ la\ base\ de\ la\ torre\ en\ lugar\ de\ cubrir\ la\ taza.\n
+comment1.params=number\ color\ widthPx
+comment1.target=CrazyLid(int,\ java.lang.String,\ int)
+comment1.text=\n\ Crea\ una\ tapa\ Crazy\ de\ color\ naranja.\n\ @param\ number\ numero\ de\ la\ tapa\n\ @param\ color\ color\ heredado\n\ @param\ widthPx\ ancho\ en\ pixeles\n
+comment2.params=t
+comment2.target=boolean\ enterTower(Tower)
+comment2.text=\n\ Inserta\ la\ tapa\ en\ la\ posicion\ mas\ baja\ de\ la\ torre\ (indice\ 0).\n\ @param\ t\ Referencia\ a\ la\ torre\n\ @return\ true\ siempre\n
+numComments=3

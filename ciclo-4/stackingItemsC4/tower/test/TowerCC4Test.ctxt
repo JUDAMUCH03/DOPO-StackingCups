@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=TowerCC4Test
+comment0.text=\r\n\ TowerCC4Test\ -\ Casos\ para\ la\ prueba\ colectiva\ del\ ciclo\ 4.\r\n\ Escenarios\ combinados\ que\ involucran\ multiples\ tipos\ interactuando.\r\n\ Todas\ las\ pruebas\ se\ ejecutan\ en\ modo\ invisible.\r\n\r\n\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\r\n
+comment1.params=
+comment1.target=void\ accordingMSOpenerShouldRemoveFearfulLidsOnEntry()
+comment2.params=
+comment2.target=void\ accordingMSCrazyLidGoesToBottomBelowHierarchical()
+comment3.params=
+comment3.target=void\ accordingMSHierarchicalShouldNotDisplaceLargerCups()
+comment4.params=
+comment4.target=void\ accordingMSFearfulLidCannotEnterWithoutItsCup()
+comment5.params=
+comment5.target=void\ accordingMSMixedTowerShouldCountElementsCorrectly()
+comment6.params=
+comment6.target=void\ accordingMSBlockedHierarchicalShouldNotBlockOtherCups()
+comment7.params=
+comment7.target=void\ accordingMSOpenerCupShouldEnterEmptyTowerWithoutError()
+comment8.params=
+comment8.target=void\ accordingMSOrderTowerShouldWorkWithNewTypes()
+numComments=9

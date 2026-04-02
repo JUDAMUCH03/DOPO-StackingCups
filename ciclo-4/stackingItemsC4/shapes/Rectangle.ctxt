@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ Rectangle\ -\ Figura\ rectangular\ que\ se\ puede\ manipular\ y\ dibujar\ en\ el\ canvas.\r\n\r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\ (Modified)\r\n\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\r\n
+comment1.params=
+comment1.target=Rectangle()
+comment1.text=\r\n\ Crea\ un\ rectangulo\ en\ la\ posicion\ y\ color\ por\ defecto.\r\n
+comment2.params=newHeight\ newWidth
+comment2.target=void\ changeSize(int,\ int)
+comment2.text=\r\n\ Cambia\ las\ dimensiones\ del\ rectangulo.\r\n\ @param\ newHeight\ nuevo\ alto\ en\ pixeles\r\n\ @param\ newWidth\ \ nuevo\ ancho\ en\ pixeles\r\n
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\r\n\ Dibuja\ el\ rectangulo\ en\ el\ canvas\ con\ sus\ dimensiones\ y\ color\ actuales.\r\n
+numComments=4

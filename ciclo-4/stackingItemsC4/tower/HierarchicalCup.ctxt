@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HierarchicalCup
+comment0.text=\n\ HierarchicalCup\ -\ Taza\ que\ desplaza\ objetos\ menores\ al\ entrar\ y\ se\ bloquea\ si\ llega\ al\ fondo.\n
+comment1.params=number\ towerWidthCm
+comment1.target=HierarchicalCup(int,\ int)
+comment1.text=\n\ Crea\ una\ taza\ jerarquica.\n\ @param\ number\ numero\ de\ la\ taza\n\ @param\ towerWidthCm\ ancho\ de\ la\ torre\n
+comment2.params=t
+comment2.target=boolean\ canBeRemoved(Tower)
+comment2.text=\n\ Valida\ si\ la\ taza\ puede\ ser\ removida\ segun\ su\ posicion\ actual\ en\ la\ torre.\n\ @param\ t\ Referencia\ a\ la\ torre\n\ @return\ false\ si\ la\ taza\ esta\ en\ la\ base\ de\ la\ torre\n
+comment3.params=t
+comment3.target=void\ enterTower(Tower)
+comment3.text=\n\ Inserta\ la\ taza\ desplazando\ hacia\ arriba\ todos\ los\ elementos\ de\ menor\ numero.\n\ @param\ t\ Referencia\ a\ la\ torre\n
+numComments=4

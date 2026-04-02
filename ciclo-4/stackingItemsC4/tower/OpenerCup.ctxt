@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=OpenerCup
+comment0.text=\n\ OpenerCup\ -\ Taza\ que\ elimina\ todas\ las\ tapas\ que\ le\ impiden\ el\ paso\ al\ entrar.\n
+comment1.params=number\ towerWidthCm
+comment1.target=OpenerCup(int,\ int)
+comment1.text=\n\ Crea\ una\ taza\ de\ tipo\ Opener.\n\ @param\ number\ numero\ de\ la\ taza\n\ @param\ towerWidthCm\ ancho\ de\ la\ torre\n
+comment2.params=t
+comment2.target=void\ enterTower(Tower)
+comment2.text=\n\ Implementa\ la\ logica\ de\ entrada\ eliminando\ visual\ y\ logicamente\ todas\ las\ tapas.\n\ @param\ t\ Referencia\ a\ la\ torre\n
+numComments=3

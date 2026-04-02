@@ -1,0 +1,49 @@
+#BlueJ class context
+comment0.target=TowerContestTest
+comment0.text=\r\n\ TowerContestTest\ -\ Pruebas\ de\ unidad\ para\ TowerContest.\r\n\ Todas\ las\ pruebas\ se\ ejecutan\ en\ modo\ invisible.\r\n\r\n\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\r\n
+comment1.params=
+comment1.target=void\ accordingMSShouldSolveSampleInput1()
+comment1.text=\r\n\ Deberia\:\ retornar\ el\ orden\ correcto\ para\ el\ ejemplo\ del\ enunciado\ (n\=4,\ h\=9).\r\n
+comment10.params=
+comment10.target=void\ accordingMSShouldSolveForOneCup()
+comment10.text=\r\n\ Deberia\:\ funcionar\ correctamente\ para\ n\=1.\r\n
+comment11.params=
+comment11.target=void\ accordingMSShouldReturnImpossibleForOneCupWrongHeight()
+comment11.text=\r\n\ Deberia\:\ retornar\ impossible\ para\ n\=1\ con\ h\!\=1.\r\n
+comment12.params=
+comment12.target=void\ accordingMSSolveShouldNeverReturnNull()
+comment12.text=\r\n\ No\ deberia\:\ retornar\ null\ en\ ningun\ caso.\r\n
+comment13.params=
+comment13.target=void\ accordingMSSolveShouldNotIncludeHeightsOutOfRange()
+comment13.text=\r\n\ No\ deberia\:\ incluir\ alturas\ fuera\ del\ rango\ valido\ (mayores\ a\ 2n-1).\r\n
+comment14.params=
+comment14.target=void\ accordingMSSimulateShouldNotThrowForValidInput()
+comment14.text=\r\n\ Deberia\:\ no\ lanzar\ excepcion\ al\ simular\ un\ caso\ posible.\r\n
+comment15.params=
+comment15.target=void\ accordingMSSimulateShouldHandleImpossibleCase()
+comment15.text=\r\n\ Deberia\:\ solve\ retornar\ impossible\ antes\ de\ que\ simulate\ intente\ dibujar.\r\n
+comment2.params=
+comment2.target=void\ accordingMSShouldReturnImpossibleForSampleInput2()
+comment2.text=\r\n\ Deberia\:\ retornar\ impossible\ para\ el\ ejemplo\ del\ enunciado\ (n\=4,\ h\=100).\r\n
+comment3.params=
+comment3.target=void\ accordingMSShouldReturnImpossibleIfHeightBelowMin()
+comment3.text=\r\n\ Deberia\:\ retornar\ impossible\ si\ h\ es\ menor\ que\ la\ altura\ minima\ posible\ (2n-1).\r\n
+comment4.params=
+comment4.target=void\ accordingMSShouldReturnImpossibleIfHeightAboveMax()
+comment4.text=\r\n\ Deberia\:\ retornar\ impossible\ si\ h\ es\ mayor\ que\ la\ altura\ maxima\ posible\ (n^2).\r\n
+comment5.params=
+comment5.target=void\ accordingMSShouldSolveMinimumHeight()
+comment5.text=\r\n\ Deberia\:\ retornar\ una\ solucion\ valida\ para\ la\ altura\ minima\ (h\ \=\ 2n-1).\r\n
+comment6.params=
+comment6.target=void\ accordingMSShouldSolveMaximumHeight()
+comment6.text=\r\n\ Deberia\:\ retornar\ una\ solucion\ valida\ para\ la\ altura\ maxima\ (h\ \=\ n^2).\r\n
+comment7.params=
+comment7.target=void\ accordingMSSolveShouldReturnExactlyNCups()
+comment7.text=\r\n\ Deberia\:\ la\ solucion\ contener\ exactamente\ n\ alturas.\r\n
+comment8.params=
+comment8.target=void\ accordingMSSolveShouldContainEachCupOnce()
+comment8.text=\r\n\ Deberia\:\ la\ solucion\ contener\ cada\ taza\ exactamente\ una\ vez.\r\n
+comment9.params=
+comment9.target=void\ accordingMSSolveShouldContainOnlyValidHeights()
+comment9.text=\r\n\ Deberia\:\ la\ solucion\ contener\ alturas\ validas\ (2i-1\ para\ i\ de\ 1\ a\ n).\r\n
+numComments=16

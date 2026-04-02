@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TowerATest
+comment0.text=\n\ TowerATest\ -\ Pruebas\ de\ aceptacion\ del\ ciclo\ 4.\n\ Pruebas\ VISIBLES\ con\ delays\ para\ observar\ el\ comportamiento\ de\ los\ tipos\ nuevos.\n\n\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\n
+comment1.params=
+comment1.target=void\ pause()
+comment2.params=
+comment2.target=void\ accordingMSAcceptanceOpenerCupRemovesFearfulLids()
+comment3.params=
+comment3.target=void\ accordingMSAcceptanceHierarchicalCupBlockedAtBottom()
+numComments=4

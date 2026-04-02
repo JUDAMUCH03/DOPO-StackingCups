@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FragileCup
+comment0.text=\n\ FragileCup\ -\ Taza\ fragil\ que\ se\ rompe\ si\ tiene\ 3\ o\ mas\ elementos\ encima.\n\ Entra\ a\ la\ torre\ de\ forma\ normal\ pero\ Tower\ la\ elimina\ automaticamente\n\ cuando\ la\ cantidad\ de\ elementos\ apilados\ sobre\ ella\ alcanza\ 3\ o\ mas.\n\n\ @author\ Daniel\ Felipe\ Sua\ y\ Juan\ David\ Munar\n
+comment1.params=number\ towerWidthCm
+comment1.target=FragileCup(int,\ int)
+comment1.text=\n\ Crea\ una\ taza\ fragil\ de\ color\ crimson.\n\ @param\ number\ \ \ \ \ \ \ numero\ de\ la\ taza\n\ @param\ towerWidthCm\ ancho\ de\ la\ torre\ en\ cm\n
+comment2.params=
+comment2.target=boolean\ isFragile()
+comment2.text=\n\ Indica\ que\ este\ elemento\ es\ una\ taza\ fragil.\n\ Tower\ usa\ este\ metodo\ en\ checkFragile()\ \n
+comment3.params=t
+comment3.target=void\ enterTower(Tower)
+comment3.text=\n\ Entra\ a\ la\ torre\ de\ forma\ normal,\ al\ final\ de\ la\ lista.\n\ @param\ t\ referencia\ a\ la\ torre\n
+numComments=4

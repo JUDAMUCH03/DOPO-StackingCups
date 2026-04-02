@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NormalCup
+comment0.text=\n\ NormalCup\ -\ Representa\ el\ comportamiento\ estandar\ de\ una\ taza\ en\ el\ simulador.\n
+comment1.params=number\ towerWidthCm
+comment1.target=NormalCup(int,\ int)
+comment1.text=\n\ Crea\ una\ taza\ normal.\n\ @param\ number\ numero\ de\ la\ taza\n\ @param\ towerWidthCm\ ancho\ de\ la\ torre\n
+comment2.params=t
+comment2.target=void\ enterTower(Tower)
+comment2.text=\n\ Agrega\ la\ taza\ al\ final\ de\ la\ pila\ actual\ de\ la\ torre.\n\ @param\ t\ Referencia\ a\ la\ torre\n
+numComments=3
