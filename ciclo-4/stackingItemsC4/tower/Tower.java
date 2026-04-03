@@ -301,6 +301,7 @@ public class Tower {
         ok = false;
         int idx1 = findIndex(o1);
         int idx2 = findIndex(o2);
+        
         if (idx1 == -1) {
             if (visible) JOptionPane.showMessageDialog(null, "No se encontro: " + o1[0] + " " + o1[1]);
             return;
@@ -309,7 +310,18 @@ public class Tower {
             if (visible) JOptionPane.showMessageDialog(null, "No se encontro: " + o2[0] + " " + o2[1]);
             return;
         }
-        doSwap(idx1, idx2);
+
+        backupItems(); 
+        doSwap(idx1, idx2); 
+
+        if (height() > maxHeight) {
+            restoreItems();
+            if (visible) JOptionPane.showMessageDialog(null, "Ese intercambio excede la altura maxima de la torre");
+            return;
+        }
+
+        checkFragile(); 
+
         ok = true;
         if (visible) redraw();
     }
@@ -642,10 +654,23 @@ public class Tower {
      * Simula agregar el elemento y verifica si cabe en la torre.
      */
     private boolean fitsInTower(StackableItem newItem) {
-        items.add(newItem);
+        backupItems(); 
+        
+        this.items.add(newItem); 
         int newHeight = height();
-        items.remove(newItem);
+        
+        restoreItems();
         return newHeight <= maxHeight;
+    }
+
+    private ArrayList<StackableItem> backupList;
+
+    private void backupItems() {
+        backupList = new ArrayList<>(this.items);
+    }
+
+    private void restoreItems() {
+        this.items = new ArrayList<>(backupList);
     }
 
     /*
@@ -691,6 +716,9 @@ public class Tower {
     /*
      * Redibuja todos los elementos de la torre en orden secuencial.
      */
+    /*
+     * Redibuja todos los elementos de la torre en orden secuencial.
+     */
     private void redraw() {
         for (StackableItem item : items) {
             item.makeInvisible();
@@ -702,22 +730,32 @@ public class Tower {
         int prevCupNumber = 0;
         boolean prevWasCup = false;
 
+        java.util.HashMap<Integer, Integer> cupTopYMap = new java.util.HashMap<>();
+
         for (StackableItem item : items) {
             if (item.isCup()) {
                 Cup cup = (Cup) item;
                 boolean nests = prevWasCup && cup.getNumber() < prevCupNumber;
                 int outerBottomY = nests ? prevCupOuterBottomY - SCALE : prevItemTopY;
                 int cupTopY = outerBottomY - cup.getHeightCm() * SCALE;
+                
                 cup.drawAt(centerX - cup.getCupWidthPx() / 2, cupTopY);
+                
+                cupTopYMap.put(cup.getNumber(), cupTopY);
+                
                 prevCupOuterBottomY = outerBottomY;
                 prevItemTopY = cupTopY;
                 prevCupNumber = cup.getNumber();
                 prevWasCup = true;
+                
             } else if (item.isLid()) {
                 Lid lid = (Lid) item;
-                
                 boolean nests = prevWasCup && lid.getNumber() < prevCupNumber;
                 int outerBottomY = nests ? prevCupOuterBottomY - SCALE : prevItemTopY;
+
+                if (!nests && cupTopYMap.containsKey(lid.getNumber())) {
+                    outerBottomY = Math.min(outerBottomY, cupTopYMap.get(lid.getNumber()));
+                }
                 
                 int lidTopY = outerBottomY - lid.getHeightCm() * SCALE;
                 lid.drawAt(centerX - lid.getWidthPx() / 2, lidTopY);
